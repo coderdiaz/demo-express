@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  ul
+    each user in users
+      li
+        span= user.name
+        br
+        span= user.lastName
+        br
+        span= user.age
+        br
+        span= user.dateBirth
